@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>한눈에 보기</title>
+    <link rel="icon" tyle="image/png" href="../../img/favicon.png">
+    <style>
+        body {
+            margin: 0;
+            background-color: black;
+            text-align: center;
+        }
+
+        span {
+            margin: 10px;
+        }
+
+        .item {
+            height: 150px;
+            padding: 20px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .container {
+            background-color: bisque;
+        }
+
+        h1 {
+            margin-top: 0;
+
+        }
+
+        iframe {
+            background-color: white;
+        }
+
+        img:hover {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">
+            <h1>HOME</h1>
+            <a href="../../index.html" target="all"><img src="./img/home.png" alt="홈" width="60px"></a>
+        </div>
+        <div class="item">
+            <h1>MY FAVORITE</h1>
+            <span>
+                <a href="../hw03/hw03-1.html" target="all"><img src="./img/game.png" alt="게임"></a>
+            </span>
+            <span>
+                <a href="../hw03/hw03-2.html" target="all"><img src="./img/youtube.png" alt="유튜브" width="64px"></a>
+            </span>
+            <span>
+                <a href="../hw03/hw03-3.html" target="all"><img src="./img/headset.png" alt="노래" width="64px"></a>
+            </span>
+        </div>
+        <div class="item">
+            <h1>ABOUT ME</h1>
+            <a href="../../hw/hw01/hw01.html" target="all"><img src="./img/me.png" alt="나" width="70px"></a>
+        </div>
+    </div>
+    <iframe src="../hw02/hw02.html" width="50%" height="550px" name="all" frameborder="0"></iframe>
+    <br><br>
+    <a href="../../index.html"><img src="./img/back.png" alt="돌아가기" width="64px"></a>
+</body>
+
+</html>
