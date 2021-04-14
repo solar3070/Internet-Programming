@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" tyle="image/png" href="./img/steam_logo.png">
+    <title>Steam에 오신 것을 환영합니다</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #0E1F33;
+        }
+
+        #steam_logo {
+            margin: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(190, 190, 190);
+        }
+
+        a:visited {
+            color: rgb(190, 190, 190);
+        }
+
+        #top a:hover {
+            color: white;
+        }
+
+        #top {
+            padding: 10px 0;
+            background-color: black;
+            display: grid;
+            grid-template-columns: 200px 1fr;
+        }
+
+        #nav {
+            margin: 30px 0 0 30px;
+        }
+
+        #help {
+            margin: 50px;
+        }
+
+        #txt1 {
+            font-size: 28px;
+            color: white;
+            margin-bottom: 0;
+        }
+
+        #txt2 {
+            font-size: 18px;
+            color: #9099A1;
+        }
+
+        #community {
+            width: 700px;
+            padding: 10px;
+            background-color: #0A1626;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        #block1 {
+            color: white;
+            font-size: 13px;
+            padding: 5px;
+        }
+
+        #loginOrJoin a {
+            background-color: #647F05;
+            color: #D2E864;
+            font-size: 17px;
+            border-radius: 2px;
+            padding: 5px;
+        }
+
+        #loginOrJoin a:hover {
+            background-color: #99B807;
+            color: white;
+        }
+
+        #block2 {
+            color: white;
+            font-size: 13px;
+            padding: 5px;
+        }
+
+        #detail {
+            text-decoration: underline;
+        }
+
+        #detail:hover {
+            color: white;
+        }
+
+        .hub {
+            display: grid;
+            grid-template-columns: 40px 1fr;
+            padding: 8px 0;
+        }
+
+        .hub p {
+            margin: 0;
+        }
+
+        .hub a {
+            color: white;
+        }
+
+        .hub a:hover {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top">
+        <div id="logo">
+            <a href="hw06.html"><img src="./img/header_logo.png" alt="스팀 로고" id="steam_logo" width="200px"></a>
+        </div>
+        <div id="nav">
+            <a href="./hw06.html">상점</a>&nbsp;&nbsp;
+            <a href="">커뮤니티</a>&nbsp;&nbsp;
+            <a href="./information.html">정보</a>&nbsp;&nbsp;
+            <a href="./help.html">지원</a>
+        </div>
+    </div>
+    <div id="help">
+        <p id="txt1">커뮤니티 활동</p>
+        <p id="txt2">Steam에 있는 모든 게임과 소프트웨어를 위한 커뮤니티와 공식 콘텐츠입니다. </p>
+        <div id="community">
+            <div id="block1">
+                <p>Steam 커뮤니티에 오신 것을 환영합니다.</p>
+                <p>Steam 커뮤니티에 로그인하여 더 많은 허브를 찾아 보세요.</p>
+                <p id="loginOrJoin"><a href="">로그인</a>&nbsp;&nbsp;또는&nbsp;&nbsp;
+                    <a href="">Steam에 가입</a>
+                </p>
+                <p>Steam은 처음이신가요? <a href="" id="detail">자세히 알아보세요</a>.</p>
+            </div>
+            <div id="block2">
+                <p>인기 허브</p>
+                <div class="hub">
+                    <img src="./img/hub1.PNG" alt="인기허브" width="35px">
+                    <p><a href="">Dear Esther</a><br><span style="color:#2F89BC;">29개의 신규 스크린샷 (이번 주)</span></p>
+                </div>
+                <div class="hub">
+                    <img src="./img/hub2.PNG" alt="인기허브" width="35px">
+                    <p><a href="">The Elder Scrolls V: Skyrim Special Edition</a><br><span style="color:#2F89BC;">53개의 신규 아트워크 (이번 주)</span></p>
+                </div>
+                <div class="hub">
+                    <img src="./img/hub3.PNG" alt="인기허브" width="35px">
+                    <p><a href="">Metro Exodus</a><br><span style="color:#2F89BC;">40개의 신규 아트워크 (이번 주)</span></p>
+                </div>
+                <div class="hub">
+                    <img src="./img/hub4.PNG" alt="인기허브" width="35px">
+                    <p><a href="">MUSICUS!</a><br><span style="color:#2F89BC;">1개의 신규 동영상 (이번 주)</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

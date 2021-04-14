@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" tyle="image/png" href="./img/steam_logo.png">
+    <title>Steam - 게이밍 플랫폼의 선두주자</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #1A2634;
+        }
+
+        #steam_logo {
+            margin: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(190, 190, 190);
+        }
+
+        a:visited {
+            color: rgb(190, 190, 190);
+        }
+
+        #top a:hover {
+            color: white;
+        }
+
+        #top {
+            padding: 10px 0;
+            background-color: black;
+            display: grid;
+            grid-template-columns: 200px 1fr;
+        }
+
+        #nav {
+            margin: 30px 0 0 30px;
+        }
+
+        #body {
+            clear: both;
+            margin: 100px 40px;
+        }
+
+        #body {
+            margin-left: 50px;
+            display: grid;
+            grid-template-columns: 600px 350px;
+        }
+
+        .detail {
+            background-color: black;
+            padding: 0 20px 0 20px;
+            height: 341.85px;
+        }
+
+        .title {
+            margin: 15px 0;
+            color: white;
+            font-size: 23px;
+        }
+
+        #price {
+            color: #87DBF5;
+            font-size: 5px;
+        }
+
+        .images img:hover {
+            opacity: 0.7;
+        }
+
+        #sale {
+            color: white;
+            font-size: 20px;
+            margin: 5px 0 0 0;
+        }
+
+        #hot {
+            text-align: center;
+            border-radius: 2px;
+            background-color: #394148;
+            width: 80px;
+            font-size: 5px;
+            color: white;
+            padding: 1px;
+        }
+
+        #text {
+            color: white;
+            font-size: 25px;
+            margin-left: 50px;
+        }
+
+        #circle {
+            display: grid;
+            grid-template-columns: 65px 200px 65px 1fr;
+            color: #AEAEAE;
+            font-size: 5px;
+        }
+
+        #circle1 {
+            margin-top: 3px;
+            margin-left: 50px;
+            width: 8px;
+            height: 8px;
+            background-color: #2EBFFF;
+            border-radius: 50%;
+        }
+
+        #circle2 {
+            margin-top: 3px;
+            margin-left: 50px;
+            width: 8px;
+            height: 8px;
+            background-color: #BAFF2E;
+            border-radius: 50%;
+        }
+
+        #people {
+            display: grid;
+            grid-template-columns: 265px 1fr;
+            color: white;
+            font-size: 25px;
+            margin-left: 50px;
+        }
+
+        #people p {
+            margin-top: 0;
+        }
+
+        #ins {
+            color: white;
+        }
+
+        #install {
+            margin-left: 50px;
+            font-size: 18px;
+            background: linear-gradient(to right, #08BBFF, #2B76FF);
+            width: 200px;
+            text-align: center;
+            padding: 10px;
+            border-radius: 3px;
+        }
+
+        #install:hover {
+            background: linear-gradient(to right, #08BBFF, #08BBFF);
+            transition: 1s;
+        } 
+
+        .img img {
+            margin: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top">
+        <div id="logo">
+            <a href="hw06.html"><img src="./img/header_logo.png" alt="스팀 로고" id="steam_logo" width="200px"></a>
+        </div>
+        <div id="nav">
+            <a href="./hw06.html">상점</a>&nbsp;&nbsp;
+            <a href="./community.html">커뮤니티</a>&nbsp;&nbsp;
+            <a href="./information.html">정보</a>&nbsp;&nbsp;
+            <a href="./help.html">지원</a>
+        </div>
+    </div>
+
+    <div id="body">
+        <div>
+            <img src="./img/header_logo.png" alt="스팀 로고" width="300px">
+            <p id="text">Steam은 게임을 플레이하고, 게임에 대해 토론하고, 게임을 창작하는 최고의 공간입니다.</p>
+            <div id="circle">
+                <div id="circle1"></div><span>온라인</span>
+                <div id="circle2"></div><span>플레이 중</span>
+            </div>
+            <div id="people">
+                <p>17,951,487</p>
+                <p>3,647,345</p>
+            </div>
+            <a href="" id="ins">
+                <div id="install">STEAM 설치하기
+                </div>
+            </a>
+        </div>
+        <div class="img">
+            <img src="./img/game.PNG" alt="게임" width="600px">
+        </div>
+    </div>
+
+
+</body>
+
+</html>

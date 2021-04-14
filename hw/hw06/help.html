@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" tyle="image/png" href="./img/steam_logo.png">
+    <title>Steam에 오신 것을 환영합니다</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #0E1F33;
+        }
+
+        #steam_logo {
+            margin: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(190, 190, 190);
+        }
+
+        a:visited {
+            color: rgb(190, 190, 190);
+        }
+
+        #top a:hover {
+            color: white;
+        }
+
+        #top {
+            padding: 10px 0;
+            background-color: black;
+            display: grid;
+            grid-template-columns: 200px 1fr;
+        }
+
+        #nav {
+            margin: 30px 0 0 30px;
+        }
+
+        #help {
+            margin: 50px;
+        }
+
+        #txt1 {
+            font-size: 28px;
+            color: white;
+            margin-bottom: 0;
+        }
+
+        #txt2 {
+            font-size: 20px;
+            color: #5CACDA;
+        }
+
+        #login {
+            width: 700px;
+            padding: 10px;
+            background-color: #0A1626;
+            text-align: center;
+        }
+
+        #ment {
+            color: white;
+            font-size: 13px;
+        }
+
+        #boxes {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-left: 60px;
+        }
+
+        #box1 {
+            text-align: center;
+            color: white;
+            background-color: #67C1F5;
+            padding: 5px;
+            width: 250px;
+            font-size: 16px;
+            border-radius: 3px;
+        }
+
+        #box2 {
+            color: white;
+            width: 250px;
+            background-color: #2D3D50;
+            padding: 5px;
+            font-size: 16px;
+            border-radius: 3px;
+        }
+
+        #box1 a,
+        #box2 a {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top">
+        <div id="logo">
+            <a href="hw06.html"><img src="./img/header_logo.png" alt="스팀 로고" id="steam_logo" width="200px"></a>
+        </div>
+        <div id="nav">
+            <a href="./hw06.html">상점</a>&nbsp;&nbsp;
+            <a href="./community.html">커뮤니티</a>&nbsp;&nbsp;
+            <a href="./information.html">정보</a>&nbsp;&nbsp;
+            <a href="./help.html">지원</a>
+        </div>
+    </div>
+    <div id="help">
+        <p id="txt1">Steam 고객 지원</p>
+        <p id="txt2">무엇을 도와드릴까요?</p>
+        <div id="login">
+            <p id="ment">구매 확인, 계정 상태 및 개인 설정화된 도움을 얻기 위해 Steam 계정에 로그인하십시오.</p>
+            <div id="boxes">
+                <div id="box1">
+                    <a href="">Steam에 로그인</a> 
+                </div>
+                <div id="box2">
+                    <a href="">도와주세요! 로그인할 수 없습니다</a> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

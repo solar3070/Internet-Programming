@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" tyle="image/png" href="./img/steam_logo.png">
+    <title>Steam에 오신 것을 환영합니다</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #19405C;
+        }
+
+        #steam_logo {
+            margin: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(190, 190, 190);
+        }
+
+        a:visited {
+            color: rgb(190, 190, 190);
+        }
+
+        #top a:hover {
+            color: white;
+        }
+
+        #top {
+            padding: 10px 0;
+            background-color: black;
+            display: grid;
+            grid-template-columns: 200px 1fr;
+        }
+
+        #nav {
+            margin: 30px 0 0 30px;
+        }
+
+        #menu li {
+            background-color: #356D93;
+            list-style: none;
+            float: left;
+            color: white;
+            padding: 10px;
+            border-right: solid 1px gray;
+        }
+
+        #menu li:hover {
+            background-color: #D6E0E8;
+            padding: 10px 10px;
+        }
+
+        #menu li a:hover {
+            color: black;
+        }
+
+        #body {
+            clear: both;
+            margin: 100px 40px;
+            display: grid;
+            grid-template-columns: 600px 350px;
+        }
+
+        .detail {
+            background-color: black;
+            padding: 0 20px 0 20px;
+            height: 341.85px;
+        }
+
+        .title {
+            margin: 15px 0;
+            color: white;
+            font-size: 23px;
+        }
+
+        #price {
+            color: #87DBF5;
+            font-size: 5px;
+        }
+
+        .images img:hover {
+            opacity: 0.7;
+        }
+
+        #sale {
+            color: white;
+            font-size: 20px;
+            margin: 5px 0 0 0;
+        }
+
+        #hot {
+            text-align: center;
+            border-radius: 2px;
+            background-color: #394148;
+            width: 80px;
+            font-size: 5px;
+            color: white;
+            padding: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top">
+        <div id="logo">
+            <a href="hw06.html"><img src="./img/header_logo.png" alt="스팀 로고" id="steam_logo" width="200px"></a>
+        </div>
+        <div id="nav">
+            <a href="./hw06.html">상점</a>&nbsp;&nbsp;
+            <a href="./community.html">커뮤니티</a>&nbsp;&nbsp;
+            <a href="./information.html">정보</a>&nbsp;&nbsp;
+            <a href="./help.html">지원</a>
+        </div>
+    </div>
+    <ul id="menu">
+        <li class="item"><a href="">내 상점</a></li>
+        <li class="item"><a href="">둘러보기</a></li>
+        <li class="item"><a href="">포인트 상점</a></li>
+        <li class="item"><a href="">뉴스</a></li>
+        <li class="item" style="border-right: solid 1px #356D93;"><a href="">steam 실험실</a></li>
+    </ul>
+    <div id="body">
+        <div class="img">
+            <img src="./img/monsterhunter.PNG" alt="몬스터헌터" width="600px">
+        </div>
+        <div class="detail">
+            <p class="title">Monster Hunter: World</p>
+            <div class="images">
+                <img src="./img/m1.png" alt="몬스터헌터" width="150px">
+                <img src="./img/m2.png" alt="몬스터헌터" width="150px">
+                <img src="./img/m3.png" alt="몬스터헌터" width="150px">
+                <img src="./img/m4.png" alt="몬스터헌터" width="150px">
+            </div>
+            <p id="sale">판매 중</p>
+            <p id="hot">최고 인기 제품</p><br>
+            <p id="price">\ 34,900</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
